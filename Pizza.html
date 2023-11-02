@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pizza Restaurant Menu</title>
+    <style>
+        /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#div1{
+    float:left; width: 20%  ; 
+}
+#div2{
+    float:right;width: 80% ; 
+}
+.description1{
+    color: #fff;
+}
+/* Add basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    
+    color: white;
+    line-height: 1.6;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1280px-Pizza-3007395.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/* Style the header with navigation */
+header {
+    border: 1px solid rgb(198, 234, 239);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 100;
+    top: 0; /* Position at the top of the viewport */
+    left: 50%; /* Horizontally center the header */
+    transform: translateX(-50%);
+    width: 100%
+    
+}
+
+header h1 {
+    font-size: 2rem;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the menu section */
+#menu {
+    padding: 2rem;
+}
+
+.menu-item {
+    
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+.container:hover { border: 2px solid #ffffff;
+    color: #FFF;
+}
+div{
+    backdrop-filter: blur(5px);
+    
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.menu-item p {
+    font-size: 20px;
+    margin: 0.5rem 0;
+}
+.price{
+    color: yellow;
+}
+
+.menu-item span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Style the contact section */
+#contact {
+    backdrop-filter: blur(5px);
+    border: 1px solid rgb(198, 234, 239);
+    padding: 2rem;
+}
+
+address {
+    font-style: normal;
+    margin-top: 1rem;
+}
+.container {
+    display: flex;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+}
+img{
+    size: max;
+}
+
+
+    </style>
+  </head>
+  <body><>
+    <header>
+      <h1>Pizza Corner</h1>
+      
+      
+    </header>
+
+    <section id="menu">
+      
+      <div class="container">
+        <div id="div1" class="menu-item">
+          <h3>Pizza Margherita</h3>
+          <img src="https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg" alt="Pizza 1" />
+        </div>
+        <div id="div2" class="menu-item">
+          <h1>DESCRIPTION</h1>
+          <p class="description1">
+            Pizza Margherita is a classic and iconic Italian pizza known for its
+            simplicity and delicious flavors. It's a traditional Neapolitan
+            pizza that originated in Naples, Italy, and is considered one of the
+            most well-loved and recognizable types of pizza worldwide.
+          </p>
+          <h1>Small :   <b class="price">&#8377;189</b></h1>
+          <h1>Medium : <b class="price">&#8377;235</b></h1>
+          <h1>Large :  <b class="price">&#8377;281</b></h1>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="container">
+            <div id="div1" class="menu-item">
+              <h3>Pizza Peperoni</h3>
+              <img src="https://www.dominos.com.au/ManagedAssets/AU/product/P016/AU_P016_en_hero_11800.gif?v-593160113" alt="Pizza 1" />
+            </div>
+            <div id="div2" class="menu-item">
+              <h1>DESCRIPTION</h1>
+              <p class="description1">
+                Pepperoni Pizza is a beloved and popular pizza variety known for its bold and savory flavors. It's a classic choice among pizza enthusiasts and often ranks as one of the most ordered and enjoyed pizza options.
+              </p>
+              <h1>Small :   <b class="price">&#8377;189</b></h1>
+              <h1>Medium : <b class="price">&#8377;235</b></h1>
+              <h1>Large :  <b class="price">&#8377;281</b></h1>
+            </div>
+          </div>
+          <div class="container">
+            <div id="div1" class="menu-item">
+              <h3>Pizza Margherita</h3>
+              <img src="https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg" alt="Pizza 1" />
+            </div>
+            <div id="div2" class="menu-item">
+              <h1>DESCRIPTION</h1>
+              <p class="description1">
+                Pizza Margherita is a classic and iconic Italian pizza known for its
+                simplicity and delicious flavors. It's a traditional Neapolitan
+                pizza that originated in Naples, Italy, and is considered one of the
+                most well-loved and recognizable types of pizza worldwide.
+              </p>
+              <h1>Small :   <b class="price">&#8377;189</b></h1>
+              <h1>Medium : <b class="price">&#8377;235</b></h1>
+              <h1>Large :  <b class="price">&#8377;281</b></h1>
+            </div>
+          </div>
+          <div class="container">
+            <div id="div1" class="menu-item">
+              <h3>Pizza Margherita</h3>
+              <img src="https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg" alt="Pizza 1" />
+            </div>
+            <div id="div2" class="menu-item">
+              <h1>DESCRIPTION</h1>
+              <p class="description1">
+                Pizza Margherita is a classic and iconic Italian pizza known for its
+                simplicity and delicious flavors. It's a traditional Neapolitan
+                pizza that originated in Naples, Italy, and is considered one of the
+                most well-loved and recognizable types of pizza worldwide.
+              </p>
+              <h1>Small :   <b class="price">&#8377;189</b></h1>
+              <h1>Medium : <b class="price">&#8377;235</b></h1>
+              <h1>Large :  <b class="price">&#8377;281</b></h1>
+            </div>
+          </div>
+          <div class="container">
+            <div id="div1" class="menu-item">
+              <h3>Pizza Margherita</h3>
+              <img src="https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg" alt="Pizza 1" />
+            </div>
+            <div id="div2" class="menu-item">
+              <h1>DESCRIPTION</h1>
+              <p class="description1">
+                Pizza Margherita is a classic and iconic Italian pizza known for its
+                simplicity and delicious flavors. It's a traditional Neapolitan
+                pizza that originated in Naples, Italy, and is considered one of the
+                most well-loved and recognizable types of pizza worldwide.
+              </p>
+              <h1>Small :   <b class="price">&#8377;189</b></h1>
+              <h1>Medium : <b class="price">&#8377;235</b></h1>
+              <h1>Large :  <b class="price">&#8377;281</b></h1>
+            </div>
+          </div>
+          <div class="container">
+            <div id="div1" class="menu-item">
+              <h3>Pizza Margherita</h3>
+              <img src="https://www.dominos.co.in//files/items/Double_Cheese_Margherita.jpg" alt="Pizza 1" />
+            </div>
+            <div id="div2" class="menu-item">
+              <h1>DESCRIPTION</h1>
+              <p class="description1">
+                Pizza Margherita is a classic and iconic Italian pizza known for its
+                simplicity and delicious flavors. It's a traditional Neapolitan
+                pizza that originated in Naples, Italy, and is considered one of the
+                most well-loved and recognizable types of pizza worldwide.
+              </p>
+              <h1>Small :   <b class="price">&#8377;189</b></h1>
+              <h1>Medium : <b class="price">&#8377;235</b></h1>
+              <h1>Large :  <b class="price">&#8377;281</b></h1>
+            </div>
+          </div>
+      <!-- Add more menu items here -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For orders and inquiries, please contact us at:</p>
+      <address>
+        Email:
+        <a href="mailto:info@pizzarestaurant.com">info@pizzarestaurant.com</a
+        ><br />
+        Phone: <a href="tel:+123456789">123-456-789</a>
+      </address>
+    </section>
+  </body>
+</html>
